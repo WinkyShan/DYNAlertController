@@ -1,0 +1,16 @@
+PODS:
+  - DYNAlertController (1.0.0)
+
+DEPENDENCIES:
+  - DYNAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  DYNAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYNAlertController: bf387dc4674bc43ee847f62f334d28d23022903a
+
+PODFILE CHECKSUM: 3e53b95ca6c1bf97ecbd7571c20fe710bd000005
+
+COCOAPODS: 1.9.1

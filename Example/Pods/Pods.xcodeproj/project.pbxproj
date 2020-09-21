@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06147B11A721E425833DB9D959068B93 /* DWDimmingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E54A30A65EF60F28B3D9DC7F83665B /* DWDimmingView.m */; };
+		15E80A133E822F8B2F4AB9F30B0B3451 /* DWAlertViewActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4601E409244890960EF07948F32DEA68 /* DWAlertViewActionButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18743F0C0C49549664ECF5CEE4FE0DE3 /* DWAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3595A5BAFF7A36CD0AAF201894959668 /* DWAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23788B4B0CDF9C2FF492342FC059AC06 /* DWAlertAppearanceMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0512C2C40EE7A8A5E2ADA2B58386DF1C /* DWAlertAppearanceMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27312B1EB9DD6A105895CEFC12DC5F0E /* DWAnimatableShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD1068E075DE35642515D36EEB01B0 /* DWAnimatableShapeLayer.m */; };
+		275634D3267E437F8B59172D27BB4588 /* DWAnimatableShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F89AC05528B1CA8A50E849315A6AE4 /* DWAnimatableShapeLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33C72E0E7457A3F2034AB696B19DC5F1 /* DWAlertViewActionBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B006398CE616D192B0E4607C8C91C2 /* DWAlertViewActionBaseView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35DF27D432AD9AE7998C886C23657970 /* DWAlertAction+DWProtected.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CFE1CB536B459A4ECDAF0C0FDE8EE6 /* DWAlertAction+DWProtected.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3679EAB31C4007771E1AEC713AAF7CC1 /* DWAlertViewActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3231643545E1D4047A739A5839C2E8 /* DWAlertViewActionButton.m */; };
+		394311E239EA00013C6DB2D986F78AED /* DWAlertDismissalAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531B6AAAE34CFC00541C8B682FF3494 /* DWAlertDismissalAnimationController.m */; };
+		3E8F1580CCB0ACF1BB4B771D6F96B96F /* DWAlertPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF933ECA43676B625DAB28E2364CB5E /* DWAlertPresentationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42A5B888B42D0465BE12C52DF732A1C4 /* DWAlertController+DWKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B68547CCAC61D09167D924912FE49 /* DWAlertController+DWKeyboard.m */; };
+		45413D66E52E9509136313EDE9CAED46 /* Pods-DWAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 967DDB0F02945C5C2B3372B53FBB4D05 /* Pods-DWAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4592946A91C66DFFF47563E231ADF0EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		460C22B2C26EA639341D7D054E46C797 /* DWActionsStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = A761E4992D8AC0EBDC0B71B03B20E1F3 /* DWActionsStackView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50D7F8E884523145800541390A9668D3 /* Pods-DWAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A0B9B66D49E360C23A88B46A1A7F8 /* Pods-DWAlertController_Example-dummy.m */; };
+		8B887A9EDEFFA93CFE18DDB860B68E3F /* DWAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD43715707FD4D4C40200357D3BBC6D /* DWAlertController.m */; };
+		8D2441B9FB1CFC386CB1BA2DE8885978 /* DWAlertPresentationAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199F2146D730DB2E81A24D6683255E7F /* DWAlertPresentationAnimationController.m */; };
+		8DB3EEE4DCE91C1E67539D8DDCA659D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		8E21C6D74EAB9BC321EE92FA24062A98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		94DF4DE53E80AA11C82226D9ACEEE7FD /* DWAlertInternalConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3772E332F948A3611E1614EE7C022FFE /* DWAlertInternalConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FB5E7483656E3A8F712A4DDC50DAA00 /* DWAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 848228854D1EDCB82CB0E94BC4E9FC66 /* DWAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D9B5B205B331FFC634B1C31C32D01D /* DWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E8478F95112CA50D6FB08E485C45CB /* DWAlertView.m */; };
+		C51F6BB6B7EC572EF77F26BC79E164AE /* DWAlertPresentationAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D971C9C9686AE82988B409696DC700 /* DWAlertPresentationAnimationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5A5A75ECE7E1342338B5F03CC9434AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		CD6B23FF6D98B1D14D462BD6831BE6E9 /* DWAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 19314D4880CEB9F8D5D97DC530E37DC2 /* DWAlertAction.m */; };
+		CD74D95B7BFA0DCDA7EF70463A30341D /* DWAlertViewActionBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD07A74E801FA8086B8DF408C1DC213 /* DWAlertViewActionBaseView.m */; };
+		CE6E7ED6AFE21B5DD5773EF311C4CDDF /* DWAlertDismissalAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 59279F1B24C5AF9A54119276D01FE737 /* DWAlertDismissalAnimationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF148F687D670873B8CD5DE7CE0F0785 /* Pods-DWAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDE0F52AA9B2705B222A3CDF044968A /* Pods-DWAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3DB72127E2E2CAAD93240D8AC8093B5 /* Pods-DWAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED43F16DF412ACD640CF7E4867297440 /* Pods-DWAlertController_Tests-dummy.m */; };
+		D5AE1D25BF41111F4FF02C8D8FF4249D /* DYNAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DA483D1A92C798902BA9541C35716 /* DYNAlertController-dummy.m */; };
+		D6AED38128D9382A6468EEF172501CBC /* DYNAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0673D69CD7F0CAF926A0C0B6A0C17352 /* DYNAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DADA16DC8524F95905CFFB3D53FBA9E7 /* DWAlertController+DWKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = EF933BA87E38FA7A8F6366D35B2219EA /* DWAlertController+DWKeyboard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0736DBE84C955B2874475C3BC9A8F1C /* DWAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = B77C5B3003C0E52F5C11B5A379D5CC9E /* DWAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9CBCD0FFFE8871FDC2BDE8E13675AC3 /* DWActionsStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C76334AFE9BA9D1DA53ED5186169568 /* DWActionsStackView.m */; };
+		ECAB7D3BCF010AC8E6641355B11CE98E /* DWAlertPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F99ADA614415B552CDE6E38BA57AD /* DWAlertPresentationController.m */; };
+		F58C4B7E98B2A4C11C439719B185B5B6 /* DWDimmingView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC595DE24CFBD3D80C4D052D5155F310 /* DWDimmingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8429E257861D3C50D64AA502E65783C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3F15BD078E0BC0A8135E1A3B8A28FC;
+			remoteInfo = DYNAlertController;
+		};
+		E8377C1C7A7B0C55DA8C7058E3031E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 603675BED342120C01DCC4F1FDF6580A;
+			remoteInfo = "Pods-DWAlertController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027F99ADA614415B552CDE6E38BA57AD /* DWAlertPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAlertPresentationController.m; sourceTree = "<group>"; };
+		0512C2C40EE7A8A5E2ADA2B58386DF1C /* DWAlertAppearanceMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWAlertAppearanceMode.h; path = DYNAlertController/DWAlertAppearanceMode.h; sourceTree = "<group>"; };
+		0673D69CD7F0CAF926A0C0B6A0C17352 /* DYNAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYNAlertController-umbrella.h"; sourceTree = "<group>"; };
+		07F89AC05528B1CA8A50E849315A6AE4 /* DWAnimatableShapeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAnimatableShapeLayer.h; sourceTree = "<group>"; };
+		0C3231643545E1D4047A739A5839C2E8 /* DWAlertViewActionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAlertViewActionButton.m; sourceTree = "<group>"; };
+		11CFE1CB536B459A4ECDAF0C0FDE8EE6 /* DWAlertAction+DWProtected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWAlertAction+DWProtected.h"; sourceTree = "<group>"; };
+		13E8478F95112CA50D6FB08E485C45CB /* DWAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAlertView.m; sourceTree = "<group>"; };
+		19314D4880CEB9F8D5D97DC530E37DC2 /* DWAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWAlertAction.m; path = DYNAlertController/DWAlertAction.m; sourceTree = "<group>"; };
+		197A0B9B66D49E360C23A88B46A1A7F8 /* Pods-DWAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWAlertController_Example-dummy.m"; sourceTree = "<group>"; };
+		199F2146D730DB2E81A24D6683255E7F /* DWAlertPresentationAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAlertPresentationAnimationController.m; sourceTree = "<group>"; };
+		1B5B68547CCAC61D09167D924912FE49 /* DWAlertController+DWKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWAlertController+DWKeyboard.m"; sourceTree = "<group>"; };
+		1C76334AFE9BA9D1DA53ED5186169568 /* DWActionsStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWActionsStackView.m; sourceTree = "<group>"; };
+		1D203C699C3AF36F47BAF2DB590C5E20 /* DYNAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYNAlertController.debug.xcconfig; sourceTree = "<group>"; };
+		1D7DC60748DD86786B75E8DA1A153AC6 /* Pods-DWAlertController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DWAlertController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CDE0F52AA9B2705B222A3CDF044968A /* Pods-DWAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E6E3BEAAA42CAC4AA5DC9063C52AFC3 /* Pods-DWAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31D971C9C9686AE82988B409696DC700 /* DWAlertPresentationAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertPresentationAnimationController.h; sourceTree = "<group>"; };
+		3313730C91E75CFC6342C01DE4DC8C3F /* Pods-DWAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3595A5BAFF7A36CD0AAF201894959668 /* DWAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWAlertAction.h; path = DYNAlertController/DWAlertAction.h; sourceTree = "<group>"; };
+		3772E332F948A3611E1614EE7C022FFE /* DWAlertInternalConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertInternalConstants.h; sourceTree = "<group>"; };
+		3CCD1068E075DE35642515D36EEB01B0 /* DWAnimatableShapeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAnimatableShapeLayer.m; sourceTree = "<group>"; };
+		3D92273C100DC879637E3BA83E0F70FF /* Pods-DWAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4601E409244890960EF07948F32DEA68 /* DWAlertViewActionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertViewActionButton.h; sourceTree = "<group>"; };
+		4963FE7B7D6B5C6229887FE78D9229F2 /* Pods-DWAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59279F1B24C5AF9A54119276D01FE737 /* DWAlertDismissalAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertDismissalAnimationController.h; sourceTree = "<group>"; };
+		5B17056062A9216D03F1CA573DA53F18 /* DYNAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DYNAlertController.modulemap; sourceTree = "<group>"; };
+		60A718B5F8A1CA94B09DFE583C949F5B /* DYNAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYNAlertController.framework; path = DYNAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6268DF07CAFC0AEDE2440F1B42283441 /* Pods-DWAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66FF8002B22983CB501CC2FE4BD4B7B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F81D3410FFC12E9914C700CC4D3C254 /* Pods-DWAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DWAlertController_Example.modulemap"; sourceTree = "<group>"; };
+		7531B6AAAE34CFC00541C8B682FF3494 /* DWAlertDismissalAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAlertDismissalAnimationController.m; sourceTree = "<group>"; };
+		7C01D47EE8F2FFB06157A9DDDBCF5217 /* Pods_DWAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DWAlertController_Tests.framework; path = "Pods-DWAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0DA483D1A92C798902BA9541C35716 /* DYNAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYNAlertController-dummy.m"; sourceTree = "<group>"; };
+		848228854D1EDCB82CB0E94BC4E9FC66 /* DWAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWAlertController.h; path = DYNAlertController/DWAlertController.h; sourceTree = "<group>"; };
+		85B006398CE616D192B0E4607C8C91C2 /* DWAlertViewActionBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertViewActionBaseView.h; sourceTree = "<group>"; };
+		8DD43715707FD4D4C40200357D3BBC6D /* DWAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWAlertController.m; path = DYNAlertController/DWAlertController.m; sourceTree = "<group>"; };
+		91E54A30A65EF60F28B3D9DC7F83665B /* DWDimmingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWDimmingView.m; sourceTree = "<group>"; };
+		967DDB0F02945C5C2B3372B53FBB4D05 /* Pods-DWAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
+		9BF933ECA43676B625DAB28E2364CB5E /* DWAlertPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertPresentationController.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4B69DD79AA57F54492F2C65FBA3354E /* DYNAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DYNAlertController-Info.plist"; sourceTree = "<group>"; };
+		A761E4992D8AC0EBDC0B71B03B20E1F3 /* DWActionsStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWActionsStackView.h; sourceTree = "<group>"; };
+		A9C283913BCD78BC521B3114A7D091B7 /* DYNAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYNAlertController-prefix.pch"; sourceTree = "<group>"; };
+		B442EE9396782B9B7C91999021581CF1 /* Pods-DWAlertController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWAlertController_Example-Info.plist"; sourceTree = "<group>"; };
+		B77C5B3003C0E52F5C11B5A379D5CC9E /* DWAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWAlertView.h; sourceTree = "<group>"; };
+		BB94819F1516B8EA944B3ABCFA73CA48 /* Pods-DWAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DWAlertController_Tests.modulemap"; sourceTree = "<group>"; };
+		C0B5428EBFCA1881A2100AFBB79AFC96 /* Pods-DWAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F78760C891269F223B42EA2172D94F /* Pods-DWAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2F0C68DC9115163BD2F30325B676D02 /* Pods-DWAlertController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWAlertController_Tests-Info.plist"; sourceTree = "<group>"; };
+		D653D1B2147BFA86EEF3406520EBBE3E /* Pods-DWAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DWAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB319B472E4DD3FCA0B62B065052E13A /* DYNAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DYNAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC595DE24CFBD3D80C4D052D5155F310 /* DWDimmingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWDimmingView.h; sourceTree = "<group>"; };
+		DDD07A74E801FA8086B8DF408C1DC213 /* DWAlertViewActionBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DWAlertViewActionBaseView.m; sourceTree = "<group>"; };
+		E4FC4E01E534B0D19EE3D337605E2AAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E5B198CE4613D3C0AE8F6E80F7732F2A /* DYNAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYNAlertController.release.xcconfig; sourceTree = "<group>"; };
+		E6434716C254E07459DA133FB65FA559 /* Pods_DWAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DWAlertController_Example.framework; path = "Pods-DWAlertController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED43F16DF412ACD640CF7E4867297440 /* Pods-DWAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF933BA87E38FA7A8F6366D35B2219EA /* DWAlertController+DWKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWAlertController+DWKeyboard.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496DA9CEA8C2BA224E11E76C34ED1961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A5A75ECE7E1342338B5F03CC9434AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4539253F84F6F3E3F7AC016132971BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4592946A91C66DFFF47563E231ADF0EE /* Foundation.framework in Frameworks */,
+				8DB3EEE4DCE91C1E67539D8DDCA659D4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A3E71573FC9A2D7A420187CAF58A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E21C6D74EAB9BC321EE92FA24062A98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38EE8272B4936ED9C2BA33E87B6E455F /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A761E4992D8AC0EBDC0B71B03B20E1F3 /* DWActionsStackView.h */,
+				1C76334AFE9BA9D1DA53ED5186169568 /* DWActionsStackView.m */,
+				11CFE1CB536B459A4ECDAF0C0FDE8EE6 /* DWAlertAction+DWProtected.h */,
+				EF933BA87E38FA7A8F6366D35B2219EA /* DWAlertController+DWKeyboard.h */,
+				1B5B68547CCAC61D09167D924912FE49 /* DWAlertController+DWKeyboard.m */,
+				59279F1B24C5AF9A54119276D01FE737 /* DWAlertDismissalAnimationController.h */,
+				7531B6AAAE34CFC00541C8B682FF3494 /* DWAlertDismissalAnimationController.m */,
+				3772E332F948A3611E1614EE7C022FFE /* DWAlertInternalConstants.h */,
+				31D971C9C9686AE82988B409696DC700 /* DWAlertPresentationAnimationController.h */,
+				199F2146D730DB2E81A24D6683255E7F /* DWAlertPresentationAnimationController.m */,
+				9BF933ECA43676B625DAB28E2364CB5E /* DWAlertPresentationController.h */,
+				027F99ADA614415B552CDE6E38BA57AD /* DWAlertPresentationController.m */,
+				B77C5B3003C0E52F5C11B5A379D5CC9E /* DWAlertView.h */,
+				13E8478F95112CA50D6FB08E485C45CB /* DWAlertView.m */,
+				85B006398CE616D192B0E4607C8C91C2 /* DWAlertViewActionBaseView.h */,
+				DDD07A74E801FA8086B8DF408C1DC213 /* DWAlertViewActionBaseView.m */,
+				4601E409244890960EF07948F32DEA68 /* DWAlertViewActionButton.h */,
+				0C3231643545E1D4047A739A5839C2E8 /* DWAlertViewActionButton.m */,
+				07F89AC05528B1CA8A50E849315A6AE4 /* DWAnimatableShapeLayer.h */,
+				3CCD1068E075DE35642515D36EEB01B0 /* DWAnimatableShapeLayer.m */,
+				DC595DE24CFBD3D80C4D052D5155F310 /* DWDimmingView.h */,
+				91E54A30A65EF60F28B3D9DC7F83665B /* DWDimmingView.m */,
+			);
+			name = Private;
+			path = DYNAlertController/Private;
+			sourceTree = "<group>";
+		};
+		4146D19C8848E89ED3B5F80AEDA9DF8B /* Pods-DWAlertController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB94819F1516B8EA944B3ABCFA73CA48 /* Pods-DWAlertController_Tests.modulemap */,
+				D653D1B2147BFA86EEF3406520EBBE3E /* Pods-DWAlertController_Tests-acknowledgements.markdown */,
+				D0F78760C891269F223B42EA2172D94F /* Pods-DWAlertController_Tests-acknowledgements.plist */,
+				ED43F16DF412ACD640CF7E4867297440 /* Pods-DWAlertController_Tests-dummy.m */,
+				D2F0C68DC9115163BD2F30325B676D02 /* Pods-DWAlertController_Tests-Info.plist */,
+				2CDE0F52AA9B2705B222A3CDF044968A /* Pods-DWAlertController_Tests-umbrella.h */,
+				2E6E3BEAAA42CAC4AA5DC9063C52AFC3 /* Pods-DWAlertController_Tests.debug.xcconfig */,
+				3313730C91E75CFC6342C01DE4DC8C3F /* Pods-DWAlertController_Tests.release.xcconfig */,
+			);
+			name = "Pods-DWAlertController_Tests";
+			path = "Target Support Files/Pods-DWAlertController_Tests";
+			sourceTree = "<group>";
+		};
+		41698D9E57D0C6AD5905BB1F1056941A /* DYNAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				3595A5BAFF7A36CD0AAF201894959668 /* DWAlertAction.h */,
+				19314D4880CEB9F8D5D97DC530E37DC2 /* DWAlertAction.m */,
+				0512C2C40EE7A8A5E2ADA2B58386DF1C /* DWAlertAppearanceMode.h */,
+				848228854D1EDCB82CB0E94BC4E9FC66 /* DWAlertController.h */,
+				8DD43715707FD4D4C40200357D3BBC6D /* DWAlertController.m */,
+				ECBA293314FCD584820C67ED20C1FB3B /* Pod */,
+				38EE8272B4936ED9C2BA33E87B6E455F /* Private */,
+				C8ADBFF1845C4A8A025D40FEB4B2248E /* Support Files */,
+			);
+			name = DYNAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F30D5D3B3DA5BA2B9C7DB4E895F8C21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41698D9E57D0C6AD5905BB1F1056941A /* DYNAlertController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C8ADBFF1845C4A8A025D40FEB4B2248E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B17056062A9216D03F1CA573DA53F18 /* DYNAlertController.modulemap */,
+				7D0DA483D1A92C798902BA9541C35716 /* DYNAlertController-dummy.m */,
+				A4B69DD79AA57F54492F2C65FBA3354E /* DYNAlertController-Info.plist */,
+				A9C283913BCD78BC521B3114A7D091B7 /* DYNAlertController-prefix.pch */,
+				0673D69CD7F0CAF926A0C0B6A0C17352 /* DYNAlertController-umbrella.h */,
+				1D203C699C3AF36F47BAF2DB590C5E20 /* DYNAlertController.debug.xcconfig */,
+				E5B198CE4613D3C0AE8F6E80F7732F2A /* DYNAlertController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DYNAlertController";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7F30D5D3B3DA5BA2B9C7DB4E895F8C21 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DE99C6F5535EE5FDB8A993054AC3F822 /* Products */,
+				D9E6B82F0F902C3093136990ED26ADDA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E6B82F0F902C3093136990ED26ADDA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0C306D2F63E5DFAB738F9C6B40B03A1 /* Pods-DWAlertController_Example */,
+				4146D19C8848E89ED3B5F80AEDA9DF8B /* Pods-DWAlertController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE99C6F5535EE5FDB8A993054AC3F822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60A718B5F8A1CA94B09DFE583C949F5B /* DYNAlertController.framework */,
+				E6434716C254E07459DA133FB65FA559 /* Pods_DWAlertController_Example.framework */,
+				7C01D47EE8F2FFB06157A9DDDBCF5217 /* Pods_DWAlertController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0C306D2F63E5DFAB738F9C6B40B03A1 /* Pods-DWAlertController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6F81D3410FFC12E9914C700CC4D3C254 /* Pods-DWAlertController_Example.modulemap */,
+				1D7DC60748DD86786B75E8DA1A153AC6 /* Pods-DWAlertController_Example-acknowledgements.markdown */,
+				3D92273C100DC879637E3BA83E0F70FF /* Pods-DWAlertController_Example-acknowledgements.plist */,
+				197A0B9B66D49E360C23A88B46A1A7F8 /* Pods-DWAlertController_Example-dummy.m */,
+				4963FE7B7D6B5C6229887FE78D9229F2 /* Pods-DWAlertController_Example-frameworks.sh */,
+				B442EE9396782B9B7C91999021581CF1 /* Pods-DWAlertController_Example-Info.plist */,
+				967DDB0F02945C5C2B3372B53FBB4D05 /* Pods-DWAlertController_Example-umbrella.h */,
+				C0B5428EBFCA1881A2100AFBB79AFC96 /* Pods-DWAlertController_Example.debug.xcconfig */,
+				6268DF07CAFC0AEDE2440F1B42283441 /* Pods-DWAlertController_Example.release.xcconfig */,
+			);
+			name = "Pods-DWAlertController_Example";
+			path = "Target Support Files/Pods-DWAlertController_Example";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECBA293314FCD584820C67ED20C1FB3B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB319B472E4DD3FCA0B62B065052E13A /* DYNAlertController.podspec */,
+				66FF8002B22983CB501CC2FE4BD4B7B8 /* LICENSE */,
+				E4FC4E01E534B0D19EE3D337605E2AAF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E7822D34E86A60407D2935F66F9E1C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF148F687D670873B8CD5DE7CE0F0785 /* Pods-DWAlertController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F1D03BBBAE5359C7E62B5C340731A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460C22B2C26EA639341D7D054E46C797 /* DWActionsStackView.h in Headers */,
+				35DF27D432AD9AE7998C886C23657970 /* DWAlertAction+DWProtected.h in Headers */,
+				18743F0C0C49549664ECF5CEE4FE0DE3 /* DWAlertAction.h in Headers */,
+				23788B4B0CDF9C2FF492342FC059AC06 /* DWAlertAppearanceMode.h in Headers */,
+				DADA16DC8524F95905CFFB3D53FBA9E7 /* DWAlertController+DWKeyboard.h in Headers */,
+				9FB5E7483656E3A8F712A4DDC50DAA00 /* DWAlertController.h in Headers */,
+				CE6E7ED6AFE21B5DD5773EF311C4CDDF /* DWAlertDismissalAnimationController.h in Headers */,
+				94DF4DE53E80AA11C82226D9ACEEE7FD /* DWAlertInternalConstants.h in Headers */,
+				C51F6BB6B7EC572EF77F26BC79E164AE /* DWAlertPresentationAnimationController.h in Headers */,
+				3E8F1580CCB0ACF1BB4B771D6F96B96F /* DWAlertPresentationController.h in Headers */,
+				E0736DBE84C955B2874475C3BC9A8F1C /* DWAlertView.h in Headers */,
+				33C72E0E7457A3F2034AB696B19DC5F1 /* DWAlertViewActionBaseView.h in Headers */,
+				15E80A133E822F8B2F4AB9F30B0B3451 /* DWAlertViewActionButton.h in Headers */,
+				275634D3267E437F8B59172D27BB4588 /* DWAnimatableShapeLayer.h in Headers */,
+				F58C4B7E98B2A4C11C439719B185B5B6 /* DWDimmingView.h in Headers */,
+				D6AED38128D9382A6468EEF172501CBC /* DYNAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13671CB74AEA907DD690B2FBBEF932A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45413D66E52E9509136313EDE9CAED46 /* Pods-DWAlertController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D3F15BD078E0BC0A8135E1A3B8A28FC /* DYNAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12761C665E29739C9F0F1B272D163F31 /* Build configuration list for PBXNativeTarget "DYNAlertController" */;
+			buildPhases = (
+				70F1D03BBBAE5359C7E62B5C340731A7 /* Headers */,
+				26784CC377513009B2DC0F11E7555EED /* Sources */,
+				D4539253F84F6F3E3F7AC016132971BA /* Frameworks */,
+				7973F88A2C6ED712BC33F58A9F05A982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYNAlertController;
+			productName = DYNAlertController;
+			productReference = 60A718B5F8A1CA94B09DFE583C949F5B /* DYNAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		603675BED342120C01DCC4F1FDF6580A /* Pods-DWAlertController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F937BCE46B56B64F859AE5A202CE11 /* Build configuration list for PBXNativeTarget "Pods-DWAlertController_Example" */;
+			buildPhases = (
+				B13671CB74AEA907DD690B2FBBEF932A /* Headers */,
+				318503E702BFF6DD0C80495057C15F75 /* Sources */,
+				D4A3E71573FC9A2D7A420187CAF58A5C /* Frameworks */,
+				B393E0D9C9926623DE1213BA07146E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69455307F77CCF48E34770087E889624 /* PBXTargetDependency */,
+			);
+			name = "Pods-DWAlertController_Example";
+			productName = "Pods-DWAlertController_Example";
+			productReference = E6434716C254E07459DA133FB65FA559 /* Pods_DWAlertController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62DE0617463998984123C869BCEE0AA9 /* Pods-DWAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB829281184A4B866C3405F0A59247C2 /* Build configuration list for PBXNativeTarget "Pods-DWAlertController_Tests" */;
+			buildPhases = (
+				3E7822D34E86A60407D2935F66F9E1C4 /* Headers */,
+				34E4D99FF596BFA650F746C759CBD585 /* Sources */,
+				496DA9CEA8C2BA224E11E76C34ED1961 /* Frameworks */,
+				293A2A4480075907BAF698EBBCD4C947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB53029BB234847D2DA0AAF54AA5945F /* PBXTargetDependency */,
+			);
+			name = "Pods-DWAlertController_Tests";
+			productName = "Pods-DWAlertController_Tests";
+			productReference = 7C01D47EE8F2FFB06157A9DDDBCF5217 /* Pods_DWAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE99C6F5535EE5FDB8A993054AC3F822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3F15BD078E0BC0A8135E1A3B8A28FC /* DYNAlertController */,
+				603675BED342120C01DCC4F1FDF6580A /* Pods-DWAlertController_Example */,
+				62DE0617463998984123C869BCEE0AA9 /* Pods-DWAlertController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293A2A4480075907BAF698EBBCD4C947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7973F88A2C6ED712BC33F58A9F05A982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B393E0D9C9926623DE1213BA07146E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26784CC377513009B2DC0F11E7555EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9CBCD0FFFE8871FDC2BDE8E13675AC3 /* DWActionsStackView.m in Sources */,
+				CD6B23FF6D98B1D14D462BD6831BE6E9 /* DWAlertAction.m in Sources */,
+				42A5B888B42D0465BE12C52DF732A1C4 /* DWAlertController+DWKeyboard.m in Sources */,
+				8B887A9EDEFFA93CFE18DDB860B68E3F /* DWAlertController.m in Sources */,
+				394311E239EA00013C6DB2D986F78AED /* DWAlertDismissalAnimationController.m in Sources */,
+				8D2441B9FB1CFC386CB1BA2DE8885978 /* DWAlertPresentationAnimationController.m in Sources */,
+				ECAB7D3BCF010AC8E6641355B11CE98E /* DWAlertPresentationController.m in Sources */,
+				C2D9B5B205B331FFC634B1C31C32D01D /* DWAlertView.m in Sources */,
+				CD74D95B7BFA0DCDA7EF70463A30341D /* DWAlertViewActionBaseView.m in Sources */,
+				3679EAB31C4007771E1AEC713AAF7CC1 /* DWAlertViewActionButton.m in Sources */,
+				27312B1EB9DD6A105895CEFC12DC5F0E /* DWAnimatableShapeLayer.m in Sources */,
+				06147B11A721E425833DB9D959068B93 /* DWDimmingView.m in Sources */,
+				D5AE1D25BF41111F4FF02C8D8FF4249D /* DYNAlertController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318503E702BFF6DD0C80495057C15F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7F8E884523145800541390A9668D3 /* Pods-DWAlertController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E4D99FF596BFA650F746C759CBD585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB72127E2E2CAAD93240D8AC8093B5 /* Pods-DWAlertController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69455307F77CCF48E34770087E889624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DYNAlertController;
+			target = 3D3F15BD078E0BC0A8135E1A3B8A28FC /* DYNAlertController */;
+			targetProxy = 8429E257861D3C50D64AA502E65783C5 /* PBXContainerItemProxy */;
+		};
+		FB53029BB234847D2DA0AAF54AA5945F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DWAlertController_Example";
+			target = 603675BED342120C01DCC4F1FDF6580A /* Pods-DWAlertController_Example */;
+			targetProxy = E8377C1C7A7B0C55DA8C7058E3031E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		288D2C9BD3200CBA882B75F22F6B3C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6E3BEAAA42CAC4AA5DC9063C52AFC3 /* Pods-DWAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DWAlertController_Tests/Pods-DWAlertController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DWAlertController_Tests/Pods-DWAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FD0270712BB67B3257109568120F633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6268DF07CAFC0AEDE2440F1B42283441 /* Pods-DWAlertController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DWAlertController_Example/Pods-DWAlertController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DWAlertController_Example/Pods-DWAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6811E5527CA7527EFE9F3DFD623DF290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B5428EBFCA1881A2100AFBB79AFC96 /* Pods-DWAlertController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DWAlertController_Example/Pods-DWAlertController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DWAlertController_Example/Pods-DWAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7106A8E5716DD99A45ECB66C73CA56F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B198CE4613D3C0AE8F6E80F7732F2A /* DYNAlertController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DYNAlertController/DYNAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYNAlertController/DYNAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYNAlertController/DYNAlertController.modulemap";
+				PRODUCT_MODULE_NAME = DYNAlertController;
+				PRODUCT_NAME = DYNAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD6D25367BD0FA2BF8B3420A716C5E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D203C699C3AF36F47BAF2DB590C5E20 /* DYNAlertController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DYNAlertController/DYNAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYNAlertController/DYNAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYNAlertController/DYNAlertController.modulemap";
+				PRODUCT_MODULE_NAME = DYNAlertController;
+				PRODUCT_NAME = DYNAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C96E74C88A1EAC16FF82CF9C5E3925F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3313730C91E75CFC6342C01DE4DC8C3F /* Pods-DWAlertController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DWAlertController_Tests/Pods-DWAlertController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DWAlertController_Tests/Pods-DWAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12761C665E29739C9F0F1B272D163F31 /* Build configuration list for PBXNativeTarget "DYNAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6D25367BD0FA2BF8B3420A716C5E82 /* Debug */,
+				7106A8E5716DD99A45ECB66C73CA56F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F937BCE46B56B64F859AE5A202CE11 /* Build configuration list for PBXNativeTarget "Pods-DWAlertController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6811E5527CA7527EFE9F3DFD623DF290 /* Debug */,
+				3FD0270712BB67B3257109568120F633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB829281184A4B866C3405F0A59247C2 /* Build configuration list for PBXNativeTarget "Pods-DWAlertController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288D2C9BD3200CBA882B75F22F6B3C12 /* Debug */,
+				C96E74C88A1EAC16FF82CF9C5E3925F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
